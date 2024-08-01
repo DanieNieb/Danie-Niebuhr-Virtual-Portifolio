@@ -49,14 +49,12 @@ function Hero() {
             <img src={linkedInIcon} alt="LinkedIn icon" />
           </a>
         </span>
-        <p>
+        <p className={styles.description}>
           I'm a passionate programmer and currently in my third and final year
           of a BSc in Information Technology at North West University.
         </p>
-        <a href={CV}>
-          <button className="hover" download>
-            CV
-          </button>
+        <a href={CV} target="_blank">
+          <button className="hover">CV</button>
         </a>
       </div>
     </section>

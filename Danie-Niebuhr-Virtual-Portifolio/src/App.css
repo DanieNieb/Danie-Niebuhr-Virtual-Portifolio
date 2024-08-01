@@ -73,3 +73,7 @@ p {
 .hover {
   cursor: pointer;
 }
+
+.hero {
+  size-adjust: 300px;
+}
