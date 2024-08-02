@@ -6,7 +6,7 @@ import gitHubIconL from '../../assets/github-light.svg';
 import gitHubIconD from '../../assets/github-dark.svg';
 import linkedInIconL from '../../assets/linkedin-light.svg';
 import linkedInIconD from '../../assets/linkedin-dark.svg';
-import CV from '../../assets/Daniel Wilhelm Niebuhr CV.pdf';
+import CV from '../../../public/Daniel Wilhelm Niebuhr CV.pdf';
 import { useTheme } from '../../common/ThemeContext';
 
 function Hero() {
@@ -53,7 +53,7 @@ function Hero() {
           I'm a passionate programmer and currently in my third and final year
           of a BSc in Information Technology at North West University.
         </p>
-        <a href={CV} download={CV}>
+        <a href={CV} target="_blank">
           <button className="hover">CV</button>
         </a>
       </div>
