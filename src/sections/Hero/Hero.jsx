@@ -53,7 +53,7 @@ function Hero() {
           I'm a passionate programmer and currently in my third and final year
           of a BSc in Information Technology at North West University.
         </p>
-        <a href={CV} target="_blank">
+        <a href={CV} download={CV}>
           <button className="hover">CV</button>
         </a>
       </div>
