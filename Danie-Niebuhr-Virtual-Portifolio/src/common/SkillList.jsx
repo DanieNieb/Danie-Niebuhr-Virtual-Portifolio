@@ -1,4 +1,4 @@
-function SkillList(src, skill) {
+function SkillList({ src, skill }) {
   return (
     <span>
       <img src={src} alt="Check mark Icon" />

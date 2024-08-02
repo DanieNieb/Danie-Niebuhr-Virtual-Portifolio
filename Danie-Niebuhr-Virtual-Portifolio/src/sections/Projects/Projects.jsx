@@ -7,7 +7,7 @@ import ProjectCard from '../../common/ProjectCard';
 function Projects() {
   return (
     <section id="projects" className={styles.container}>
-      <h1>University Projects</h1>
+      <h1 className="sectionTitle">University Projects</h1>
       <div className={styles.projectsContainer}>
         <ProjectCard
           src={encryptionP}
